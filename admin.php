@@ -125,9 +125,9 @@ if ($id == "login" || substr($url, -1) == "p") {
     $_SESSION["connect"] = "<b class='text-red'>Not Connected</b>";
     $nl = '\n';
     if ($currency == in_array($currency, $cekindo['indo'])) {
-      echo "<script>alert('Mahabub not connected!".$nl." Please recheck IP, User, Password and API port must be enabled.".$nl."If using a VPN connection,make sure the VPN is connected.')</script>";
+      echo "<script>alert('Shafi360 not connected!".$nl." Please recheck IP, User, Password and API port must be enabled.".$nl."If using a VPN connection,make sure the VPN is connected.')</script>";
     }else{
-      echo "<script>alert('Mahabub not connected!".$nl."Please check the IP, User, Password and port API must be enabled.')</script>";
+      echo "<script>alert('Shafi360 not connected!".$nl."Please check the IP, User, Password and port API must be enabled.')</script>";
     }
     if($c == "settings"){
       echo "<script>window.location='./admin.php?id=settings&session=" . $session . "'</script>";

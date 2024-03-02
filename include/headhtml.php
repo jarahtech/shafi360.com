@@ -22,7 +22,7 @@ error_reporting(0);
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Spick.live <?= $hotspotname; ?></title>
+		<title>Shafi360.com <?= $hotspotname; ?></title>
 		<meta charset="utf-8">
 		<meta http-equiv="cache-control" content="private" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
